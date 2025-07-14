@@ -13,9 +13,20 @@ header {
 }
 
 nav a {
-  color: #fff;
   margin: 0 10px;
   text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+nav a i {
+  font-size: 20px;
+  color: white;
+  transition: color 0.3s;
+}
+
+nav a i:hover {
+  color: #FFD700; /* Warna saat hover */
 }
 
 main {
